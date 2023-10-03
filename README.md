@@ -1,11 +1,11 @@
 # Swapping the operands of integer addition and multiplication
 The title explains everything. Here is an output snippet of applying the pass on a simple C program:
-`Before swapping:
-  %1 = alloca i32, align 4!
-  %2 = alloca i32, align 4!
-  %3 = alloca i32, align 4!
-  %4 = alloca i32, align 4!
-  %5 = alloca i32, align 4!
+`    Before swapping:
+      %1 = alloca i32, align 4!
+      %2 = alloca i32, align 4!
+      %3 = alloca i32, align 4!
+      %4 = alloca i32, align 4!
+      %5 = alloca i32, align 4!
   store i32 0, ptr %1, align 4!
   store i32 8, ptr %2, align 4!
   store i32 3, ptr %3, align 4!
