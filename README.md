@@ -41,7 +41,8 @@ After swapping:
   ret i32 0!```
 
 Here is the program itself:
-`#include <stdio.h>
+```
+#include <stdio.h>
 int main() {
    int a = 2 * 4;
    int b = 3;
@@ -49,4 +50,5 @@ int main() {
    int d = c * 2;
    printf("%i", d);
    return 0;
-}`
+}
+```
