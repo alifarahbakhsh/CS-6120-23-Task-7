@@ -41,15 +41,4 @@ After swapping:
   ret i32 0!
 ```
 
-Here is the program itself:
-```
-#include <stdio.h>
-int main() {
-   int a = 2 * 4;
-   int b = 3;
-   int c = a + b;
-   int d = c * 2;
-   printf("%i", d);
-   return 0;
-}
-```
+You can see that the operands of the add and mul instructions have been swapped.
